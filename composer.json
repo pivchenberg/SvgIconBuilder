@@ -1,0 +1,20 @@
+{
+  "name": "pivchenberg/svg-icon-builder",
+  "description": "Build SVG icon from json description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+	{
+	  "name": "Nikita Pivchenkov",
+	  "email": "pivchenberg@gmail.com"
+	}
+  ],
+  "require": {
+	"php": ">=7.0.0"
+  },
+  "autoload": {
+	"psr-4": {
+	  "Pivchenberg\\SvgIconBuilder\\": "src/"
+	}
+  }
+}
